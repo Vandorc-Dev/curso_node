@@ -1,0 +1,92 @@
+    /* Estilos Gerais */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+  
+      /* Cabeçalho */
+      header {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 20px;
+      }
+  
+      /* Seção de Destaque */
+      .destaque {
+        background-color: #eee;
+        padding: 50px;
+        text-align: center;
+      }
+  
+      h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+  
+      button {
+        background-color: #222;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      button:hover {
+        background-color: #444;
+      }
+  
+      /* Rodapé */
+      footer {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+
+
+
+/* Layout Responsivo */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .destaque {
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+  
