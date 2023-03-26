@@ -6,6 +6,10 @@
       }
   
       body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:  #01010b;
         font-family: Arial, sans-serif;
         font-size: 16px;
         line-height: 1.5;
@@ -14,10 +18,32 @@
   
       /* Cabeçalho */
       header {
-        background-color: #222;
+        background-color:  #01010b;
         color: #fff;
         padding: 20px;
         text-align: center;
+      }
+
+  .video{
+    width: 100%;
+  }
+
+  iframe{
+    max-width: 100%;
+  }
+
+      header h2{
+        margin-top: 5%;
+        font-size: 1.4rem;
+      }
+
+      .banner{
+        display: flex;
+      }
+
+      .banner img{
+        margin: auto;
+        width: 70%;
       }
   
       h1 {
@@ -42,14 +68,15 @@
       }
   
       button {
-        background-color: #222;
-        color: #fff;
+        background-color: #ffc107;
+        color: #0c0c0c;
         border: none;
         padding: 10px 20px;
         font-size: 20px;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        margin-top: 10px;
       }
   
       button:hover {
@@ -60,10 +87,14 @@
       footer {
         background-color: #222;
         color: #fff;
-        padding: 20px;
+        padding: 6px;
         text-align: center;
       }
 
+
+      footer > p{
+        font-size: 12px;
+      }
 
 
 
@@ -76,13 +107,15 @@
     h1 {
       font-size: 24px;
     }
+
+
   
     .destaque {
       padding: 30px;
     }
   
     h2 {
-      font-size: 24px;
+      font-size: 20px;
     }
   
     button {
