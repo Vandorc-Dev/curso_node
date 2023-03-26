@@ -1,103 +1,80 @@
-    /* Estilos Gerais */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-  
-      body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color:  #01010b;
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #333;
-      }
-  
-      /* Cabeçalho */
-      header {
-        background-color:  #01010b;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .video{
-    width: 100%;
-  }
+header{
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
 
-  iframe{
-    max-width: 100%;
-  }
+header > h1{
+  font-weight: 500;
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
 
-      header h2{
-        margin-top: 5%;
-        font-size: 1.4rem;
-      }
+.link{
+  width: 100%;
+  text-align: center;
+}
 
-      .banner{
-        display: flex;
-      }
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
 
-      .banner img{
-        margin: auto;
-        width: 70%;
-      }
-  
-      h1 {
-        font-size: 36px;
-        margin-bottom: 10px;
-      }
-  
-      p {
-        font-size: 20px;
-      }
-  
-      /* Seção de Destaque */
-      .destaque {
-        background-color: #eee;
-        padding: 50px;
-        text-align: center;
-      }
-  
-      h2 {
-        font-size: 30px;
-        margin-bottom: 20px;
-      }
-  
-      button {
-        background-color: #ffc107;
-        color: #0c0c0c;
-        border: none;
-        padding: 10px 20px;
-        font-size: 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        margin-top: 10px;
-      }
-  
-      button:hover {
-        background-color: #444;
-      }
-  
-      /* Rodapé */
-      footer {
-        background-color: #222;
-        color: #fff;
-        padding: 6px;
-        text-align: center;
-      }
+.content-main{
+  display: flex;
+color: #fff;
+}
 
 
-      footer > p{
-        font-size: 12px;
-      }
+.btn{
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn button{
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgb(243, 154, 70);
+  box-shadow: 2px 2px 5px #afadad;
+}
 
 
+.btn button:hover{
+  background-color: rgb(231, 63, 12);
+}
 
+.btn > p{
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.banner{
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.banner img{
+  max-width: 48%;
+  justify-content: center;
+}
 /* Layout Responsivo */
 @media screen and (max-width: 768px) {
     body {
